@@ -11,12 +11,12 @@ img.src = url;
 
 }
 randomMemeGenerator();
-let timer= setInterval(randomMemeGenerator, 2000);
+let timer= setInterval(randomMemeGenerator, 5000);
 
 img.addEventListener("mouseover", function(){
     clearInterval(timer);
 })
 
 img.addEventListener("mouseleave", function(){
-   timer= setInterval(randomMemeGenerator, 2000);
+   timer= setInterval(randomMemeGenerator, 5000);
 })
