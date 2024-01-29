@@ -1,5 +1,5 @@
 
-let img = document.querySelector(".meme img");
+let img = document.querySelector(".card img");
 async function randomMemeGenerator() {
 let res = await fetch("https://meme-api.com/gimme");
 console.log(res);
